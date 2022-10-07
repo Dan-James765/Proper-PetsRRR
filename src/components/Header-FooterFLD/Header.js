@@ -29,7 +29,7 @@ function Header() {
   const logoutUser = () => {
     signOut(auth)
       .then(() => {
-        toast.success("Logout Succesful");
+        toast.success("Logout Succesful!");
         navigate("/login");
       })
       .catch((error) => {
